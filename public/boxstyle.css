@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+<!--body{background-color:#E6DEAC;}-->
+
+
+.example{background-color: #2FF4EB; max-width:600px; max-height: 400px; border: dotted #F80606; padding: 20px ; margin: 50px; }
+
+#hone{ width: 300px ; height:100px ; text-align:center; padding: 50px; margin-left:50px;                                    }
+#htwo{ padding: 10px; }
+#para{border: double #000000}
+
+#hone1{width:300px ;height:100px; border: double #2D04B9; padding: 5px ; margin: 5px}
+#htwo1{}
+#para1{border:double #770AA7; border-width: 20px}
+
+#hone2{background-color:#770AA7}
+#htwo2{ border-width: 5px;border:groove #2D04B9; text-align:center}
+#para2{width:200px ;height:100px; padding: 10px ; margin: 10px; overflow:hidden}
+
+#hone3{ text-align:center}
+#htwo3{width:200px ;height:50px; border: dashed #770AA7; padding: 15px ; margin: 15px}
+#para3{width: 350px; height: 150px; margin:100px ; overflow: hidden}
+
+#hone4{width:300px ;height:100px;padding: 10px ; margin: 0px; text-align:center}
+#htwo4{width:400px ;height:100px;padding: 10px ; margin: 0px; text-align:left}
+#para4{width:500px ;height:150px;padding: 10px ; margin: 0px; text-align:right}
+
+#hone5{width:300px ;height:50px;padding: 10px ; margin-left: 150px; border: ridge;}
+#htwo5{ width:300px ;height:50px;padding: 10px ; margin-left: 150px; border: ridge; }
+#para5{width:300px ;height:100px;padding: 10px ; margin-left: 150px; border: ridge; overflow:scroll}
+
+#hone6{background-color:#770AA7;border: groove #000000; border-width: 10px: padding:50px; margin: 0px}
+#htwo6{ background-color: #DAADED ; text-align:center; border: groove #000000; border-width: 10px: padding:50px;margin: 0px;}
+#para6{background-color: #2D04B9; border: groove #000000; border-width: 10px: padding:50px;margin: 0px;}
+
+
+p{background-color:#CBEBE9;}
+h1{ background-color:#85A9AD}
+h2{ background-color:#5A9895}

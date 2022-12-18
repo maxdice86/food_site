@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+#colo {color:#F40E12}
+#background {background-color:#CAF4DC}
+#font {font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif}
+
+#fontsz {font-size:24px}
+
+#weight {font-weight: 900}
+#fstyle {font-style:italic} 
+#txform {text-transform: uppercase} 
+#txtdec {text-decoration:underline}
+#lihgt {line-height:40px; overflow: hidden; text-align: left; margin: 5px; padding: 5px}
+#wrdspc {word-spacing: 15px} 
+
+.lspac {letter-spacing:5px} 
+.txtal {text-align:left}
+.valign {vertical-align: text-bottom}
+.txtdent {text-indent:200px}
+.shadow {text-shadow: 5px 5px  #E1F704}

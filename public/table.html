@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Events</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="form.js"></script>
+
+</head>
+
+<body>
+ 
+ <script src="jquery-2.1.4.min.js"></script>
+
+    <script>
+
+    $("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow > div:first')
+    .fadeOut(2500)
+    .next()
+    .fadeIn(2500)
+    .end()
+    .appendTo('#slideshow');
+},  3000);
+
+    </script>
+
+<div class="social" id="header">
+
+<ul class="social">
+	<a href="https://facebook.com" target=_blank><li><img src="facebook.png" /></li></a>
+    <a href="https://twitter.com" target=_blank><li><img src="twitter.png" /></li></a>
+   <a href="https://instagram.com" target=_blank> <li><img src="instagram.png" /></li>
+</ul>
+<a href="index.html"><img src="logo.png" id="logo" title="Go to Homepage"/></a>
+
+<div id="navli">
+<ul class="navlist">
+
+<li class="left"><a href="about.html">ABOUT</a></li>
+<li><a href="building.html">PORTFOLIO</a></li>
+<li><a href="table.html">EVENTS</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+<li><a href="recipe.html">RECIPES</a></li>
+<li><a href="live.html">LIVE STREAM</a></li>
+
+</ul>
+</div> <!--END OF DIV NAVlIS-->
+</div><!--END OF HEADER-->
+
+<div id = "event">
+
+<div id="slideshow">
+
+<h1 class="hover">UPCOMING EVENTS...</h1>
+
+
+   <div>
+   
+     <img src="_Images/slide1.png">
+     
+     <figcaption>Janurary 21-"Jackie Bellard Awards"</figcaption>
+     
+   </div>
+    <div>
+     <img src="_Images/slide2.png">
+     
+     <figcaption>February 20-"Book Signinging Event at Sandals"</figcaption>
+     
+   </div>
+    <div>
+     <img src="_Images/slide3.png">
+     
+     <figcaption>April 15-"Negril Easter Festival"</figcaption>
+     
+   </div>
+   
+   </div>
+   
+   <audio controls autoplay loop onloadstart = "volume()"  src = "Sleep Away.mp3" id = "music"></audio>
+   
+</div> <!--END OF SLIDE-->
+    
+<h2 class="theme" id = "calender"> Events Calendar</h2>
+
+<p>My calendar of events for the last three years and 2015. Please check back for updates.</p>
+
+
+<div id="table"> 
+
+
+<table border="1">
+
+<tr><th>2015</th><td>Janurary 21- <b>"Jackie Bellard Awards"</b></td><td> February 20-<b>"Book Signinging Event at Sandals"</b><td> April 15-<b>"Negril Easter Festival"</b></td><td>August 6- <b>"Montego Bay Food Festival"</b></td><td>September 23 - <b>Grill N Bar Cook Off 2015</b></td><td>November 15-<b>"Chef Appreciation Awards 2015"</b></td><td>December 22- <b>"Sandals Christmas Party Special 2015"</b> </td></tr>
+
+<tr><th>2014</th><td rowspan="2"> Janurary 20- <b>"Jackie Bellard Awards"</b></td><td> April 14-<b>"Negril Easter Festival"</b></td><td>August 6- <b>"Montego Bay Food Festival"</b></td><td>September 23 - <b>"Grill N Bar Cook Off 2014"</b></td><td colspan="3">December 22-<b>"Sandals Christmas Party Special 2014"</b></td>
+</tr>
+
+
+<tr><th>2013</th><td>February 14- <b>"Rui Hotel Valentines Day Special"</b> </td><td> April 15- <b>"Negrils Easter Festival"</b></td><td colspan="4">August 6-<b> "Montego Bay Food Festival"</b></td>
+</tr>
+
+<tr><th>2012</th><td> Janurary 19-<b> "Jackie Bellard Awards"</b></td><td> April 13- <b>"Negril Easter Festival 2012"</b></td><td>August 5- <b>"Montego Bay Food Festival"</b></td><td>October 15-21 <b>"Ochi Rios Resturant Week"</b> </td><td colspan ="3">November 15- <b>"2012 Chef Appreciation Awards"</b></td>
+</tr>
+</table>
+
+</div> <!--END OF TABLE-->
+
+</div> <!--END OF CONTENT-->
+
+<div id="footer">
+
+<h4 id=footsoc>FOLLOW US ON:</h4>
+<ul class="footsocial">
+	<a href="https://facebook.com" target=_blank><li><img src="facebook.png" /></li></a>
+    <a href="https://twitter.com" target=_blank><li><img src="twitter.png" /></li></a>
+   <a href="https://instagram.com" target=_blank> <li><img src="instagram.png" /></li>
+</ul>
+
+<div id="footnavli">
+<ul class="footnavlist">
+
+<li class="left"><a href="index.html">Home</a></li>|
+<li><a href="portfolio.html">Building Blocks</a></li>|
+<li><a href="table.html">Events</a></li>|
+<li><a href="contact.html">Contact us</a></li>|
+<li><a href="recipe.html">Recipes</a></li>|
+<li><a href="live.html">Live Stream</a></li>|
+<li><a href="about.html">About us</a></li>
+
+</ul>
+</div> <!--END OF DIV NAVlIS-->
+</div> <!--END OF FOOTER-->
+
+</body>
+</html>
